@@ -1,0 +1,6 @@
+flask==2.2.3
+werkzeug==2.2.3
+kubernetes==26.1.0
+flask-cors==3.0.10
+mcp
+
