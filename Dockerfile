@@ -32,7 +32,7 @@ COPY kubeconfig /root/.kube/config
 
 # Set environment variable for ANTHROPIC_API_KEY
 # This can be overridden at runtime
-ENV ANTHROPIC_API_KEY=your_api_key_here
+ENV ANTHROPIC_API_KEY=c2f504b0-d6d7-4534-8114-a2d7f9a4b160
 
 # Expose the port that the server will run on
 EXPOSE 8081
