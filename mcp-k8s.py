@@ -11,8 +11,7 @@ import uvicorn
 import logging
 
 # 配置日志
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+
 
 # Initialize FastMCP server for K8s tools
 mcp = FastMCP("k8s_pod_query")
