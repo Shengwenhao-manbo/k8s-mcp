@@ -3,6 +3,7 @@ FROM python:3.13-slim AS base
 
 # Set the working directory
 WORKDIR /app
+WORKDIR /abbfdsfsdfsfs
 
 # Install uv and other necessary tools
 RUN pip install --no-cache-dir uv
@@ -25,7 +26,7 @@ RUN pip install --no-cache-dir poetry && \
     (echo "Poetry configuration is invalid. Please check pyproject.toml." && exit 1)
 
 # Copy the rest of the application files
-COPY . .
+COPY . .///
 
 # Copy kubeconfig file into container
 COPY kubeconfig /root/.kube/config
